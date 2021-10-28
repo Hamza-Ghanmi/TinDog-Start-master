@@ -3,11 +3,6 @@ body {
     text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-}
 
 .container-fluid {
     padding: 7% 15%;
@@ -39,6 +34,15 @@ p {
     color: #8f8f8f;
 }
 
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -61,6 +65,7 @@ p {
 
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 .download-button {
@@ -75,7 +80,6 @@ p {
 }
 
 #features {
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
@@ -99,7 +103,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image {
@@ -129,11 +132,6 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
-}
-
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 .social-icon {
